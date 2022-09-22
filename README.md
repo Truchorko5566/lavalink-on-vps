@@ -8,29 +8,29 @@
 * Primero tiene que instalar **Java11** precione aca para que vea como hacerlo [Click](https://github.com/Truchorko5566/lavalink-on-vps/blob/vps-linux/java-install.md) 
 + Segundo dentro de la **Carpeta anterior mente mencionada** cree un archivo llamado **application.yml** para que dentro copie esto:
 ```yml
-server: # REST and WS server
+server: # Servidor REST y WS
   port: 2333
   address: 0.0.0.0
 lavalink:
   server:
-    password: "youshallnotpass" # can be anything must be the same password to connect to!
+    password: "youshallnotpass" # puede ser cualquier cosa debe ser la misma contraseña para conectarse!
     sources:
-      youtube: true # allow youtube to work (scraping)
-      bandcamp: true # allow bandcamp scraping
-      soundcloud: true # allow soundcloud scraping
-      twitch: true # allow twitch scraping
-      vimeo: true # allow vimeo scraping
-      mixer: true # allow mixer scraping
-      http: true # allow http scraping for example radio station streams
-      local: false # allow playing local stored (on the same host/pc) files (.mp3, etc.)
-    bufferDurationMs: 150 # How often a update is sent in milliseconds
-    youtubePlaylistLoadLimit: 3 # 3 Means ... 300 Songs maximum / Playlist
-    youtubeSearchEnabled: true # If u are allowed to search via youtube
-    soundcloudSearchEnabled: true # If you are allowed to search via soundcloud
+      youtube: true # permitir que youtube funcione (scraping)
+      bandcamp: true # permitir el raspado de bandcamp
+      soundcloud: true # permitir el raspado de soundcloud
+      twitch: true # permitir el raspado de contracción
+      vimeo: true # permitir el raspado de vimeo
+      mixer: true # permitir el raspado del mezclador
+      http: true # permitir el raspado de http, por ejemplo, transmisiones de estaciones de radio
+      local: false # permitir la reproducción de archivos almacenados localmente (en el mismo host/pc) (.mp3, etc.)
+    bufferDurationMs: 150 # Con qué frecuencia se envía una actualización en milisegundos
+    youtubePlaylistLoadLimit: 3 # 3 medios... 300 canciones máximo/lista de reproducción
+    youtubeSearchEnabled: true # Si se le permite buscar a través de youtube
+    soundcloudSearchEnabled: true # Si se le permite buscar a través de SoundCloud
     gc-warnings: true 
 
-    #ratelimit: # If you have an ipv6 enable this, so that you can host lavalink for way longer
-      #ipBlocks: ["Ipv6/48", "Andere_Ipv6/48"] # list of ip blocks
+    #ratelimit: # Si tiene un ipv6, habilite esto, para que pueda alojar lavalink por mucho más tiempo
+      #ipBlocks: ["Ipv6/48", "Andere_Ipv6/48"] # lista de bloques de ip
       #strategy: "RotateOnBan" # RotateOnBan | LoadBalance | NanoSwitch | RotatingNanoSwitch
 metrics:
   prometheus:
@@ -47,3 +47,5 @@ logging:
     root: INFO
     lavalink: INFO
 ```
+
+
