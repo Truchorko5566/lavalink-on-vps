@@ -1,6 +1,6 @@
 ### Instalacion
 
-# Pasos
+# Paso 1
 * Primero tiene que crear una carpeta con el nombre que quiera esto es para que todos los archivos que va a instalar esten juntos
 * Despues de hacer lo anterior tiene que instalar **Lavalink.jar** precione aca para que vea como hacerlo [Click](https://github.com/Truchorko5566/lavalink-on-vps/blob/vps-linux/Lavalink.jar.md)
 
