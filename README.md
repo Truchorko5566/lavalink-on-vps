@@ -48,4 +48,10 @@ logging:
     lavalink: INFO
 ```
 
+# Paso 3
+* Recuerda que todo lo instalado tiene que estar dentro de una sola carpeta para que inicie correctamente
+
+# Paso 4
+* Para esta parte solo tienes que iniciar todo con este comando ` java -jar Lavalink.jar ` pero como esto es para una vps puedes iniciarlo en segundo plano con **PM2** para instalar **PM2** solo ejecute ` npm i -g pm2 ` y ya estara en su sistema **(para iniciar lavalink en segundo plano ejecute ` pm2 start java -- -jar Lavalink.jar ` **OJO TIENE QUE INICIARLO DENTRO DE LA CARPETA CON TODO LOS CONPONENTES LAVALINK)**
+
 
