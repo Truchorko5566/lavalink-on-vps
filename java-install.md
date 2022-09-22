@@ -1,9 +1,9 @@
-## Install Java 11 from APT
+## Instalar Java 11 desde APT
 ```
 apt install openjdk-11-jre-headless
 ```
 
-### Install Java 11 from source
+### Instalar Java 11 desde la fuente
 ```
 wget https://download.java.net/openjdk/jdk11/ri/openjdk-11+28_linux-x64_bin.tar.gz
 sudo mkdir -p /usr/lib/jvm
@@ -12,9 +12,9 @@ sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/b
 sudo update-alternatives --set java /usr/lib/jvm/jdk-11/bin/java
 java -version
 ```
-## Versions and Download Links [Click here to see all available versions](https://jdk.java.net/)
+## Versiones y enlaces de descarga [Haga clic aquí para ver todas las versiones disponibles](https://jdk.java.net/)
 
-### OPTIONAL TO SWAP THE VERSION:
+### OPCIONAL PARA CAMBIAR LA VERSIÓN:
 ```
 sudo update-alternatives --config java
 ```
