@@ -12,7 +12,7 @@ sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/b
 sudo update-alternatives --set java /usr/lib/jvm/jdk-11/bin/java
 java -version
 ```
-##Versions and Download Links [Click here to see all available versions](https://jdk.java.net/)
+## Versions and Download Links [Click here to see all available versions](https://jdk.java.net/)
 
 ### OPTIONAL TO SWAP THE VERSION:
 ```
