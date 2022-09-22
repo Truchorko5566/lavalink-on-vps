@@ -1,4 +1,4 @@
-### Instalacion
+## Instalacion
 
 # Paso 1
 * Primero tiene que crear una carpeta con el nombre que quiera esto es para que todos los archivos que va a instalar esten juntos
